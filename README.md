@@ -19,5 +19,5 @@ const myTokens = [
         }
     },
 ];
-const customParser = new Textator(myTokens, { noMatchProcess(meta, leftovers) { return leftovers; }});
+const customParser = new Textator(myTokens);
 ```
