@@ -32,3 +32,7 @@ console.log(output);
 // Some super cool text which contains a <a href="http://example.com">link</a>and... <br /> also a line break.
 
 ```
+
+## Questions & Answers
+
+* Can it be used for inline and block elements? — Yes and no. At the moment there is no feature for recognizing two patterns for one substring. So I recommend you to build a customInlineParser and a customBlockParser and let them run one after the other.
