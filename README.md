@@ -25,6 +25,7 @@ const customParser = new Textator(myTokens);
 
 const input = 'Some super cool text which contains a [link](http://example.com) and... \n also a line break.';
 
+// maybe better serialize your input before processing it.
 const output = customParser(input);
 
 console.log(output);
